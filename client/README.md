@@ -9,7 +9,7 @@ In the project directory, you can run:
 
 ### `npm install or yarn add`
 
-It installs all the required dependencies\
+It installs all the required dependencies
 
 ### `npm start`
 
