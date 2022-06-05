@@ -1,0 +1,144 @@
+.header{
+    background-color: #2a2081;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header-container{
+    width: 100%;
+    padding-left: 20px ;
+    padding-right: 20px;
+}
+
+.header-list{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.header-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-item.active{
+    border: solid 1px white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.header-desc{
+    margin: 20px 0;
+}
+
+.header-btn{
+    border: none;
+    background-color: #0071c2;
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.header-text{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.header-search{
+    height: 30px;
+    background-color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid #febb02;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -25px;
+    width: 92%;
+}
+
+.header-icon{
+    color: lightgray;
+}
+
+.header-search-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-search-input{
+    border: none;
+    outline: none;
+}
+
+.header-search-text{
+    color: lightgray;
+}
+
+.header-search-btn{
+    border: none;
+    outline: none;
+    background-color: #0071c2;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.date{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+
+
+.options{
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.4);
+    z-index: 2;
+}
+
+.option-item{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.option-cont{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: #000;
+}
+
+.option-counter-btn{
+    border: none;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0071c2;
+    color: #0071c2;
+    background-color: white;
+    cursor: pointer;
+}
+
+.option-counter-btn:disabled{
+    cursor: not-allowed;
+}

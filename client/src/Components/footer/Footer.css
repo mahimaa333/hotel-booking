@@ -1,0 +1,28 @@
+.footer{
+    width: 100%;
+    font-size: 12px;
+    background-color: #003580;
+    color: white;
+  }
+  
+  .footer-lists{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  
+  .footer-list{
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  .footer-list-item{
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  li {
+      list-style: none;
+  }
